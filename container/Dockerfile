@@ -27,7 +27,7 @@ RUN rmdir /srv
 
 ENV HOME /root
 RUN ln -s /src/GUI/xephem/auxil /root/.xephem
-RUN echo 'make -C /src/GUI/xephem && /src/GUI/xephem/xephem' \
+RUN echo 'make -C /src/GUI/xephem && (cd /src/GUI/xephem; ./xephem)' \
     > /root/.bash_history
 
 # Start the user in the /src directory.
