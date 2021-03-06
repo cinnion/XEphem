@@ -1,15 +1,15 @@
 Name:		xephem
 Version:	4.0.1
-Release:        1
-Summary:        XEphem is an interactive astronomy program for all UNIX platforms.
+Release:	1
+Summary:	XEphem is an interactive astronomy program for all UNIX platforms.
 License:	MIT
 
-URL:            https://github.com/XEphem/XEphem
+URL:		https://github.com/XEphem/XEphem
 
-Source0:        %{name}-%{version}.tgz
+Source0:	https://github.com/cinnion/XEphem/archive/%{name}-%{version}-%{release}.tar.gz
 
-BuildRequires:  gcc
-BuildRequires:  make
+BuildRequires:	gcc
+BuildRequires:	make
 BuildRequires:	motif-devel
 
 Requires:	motif
