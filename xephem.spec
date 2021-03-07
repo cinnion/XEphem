@@ -6,7 +6,7 @@ License:	MIT
 
 URL:		https://github.com/XEphem/XEphem
 
-Source0:	https://github.com/cinnion/XEphem/archive/%{name}-%{version}-%{release}.tar.gz
+Source0:	https://github.com/cinnion/XEphem/archive/%{name}-%{version}.tar.gz
 
 BuildRequires:	gcc
 BuildRequires:	make
